@@ -27,7 +27,6 @@ Built by students, for students — Taskly Pro simplifies your academic workload
 
 ## Project Structure
 
-<<<<<<< HEAD
 ### 🌐 Routes Overview
 
 | Route              | Method | Description                         | Template          |
@@ -44,44 +43,6 @@ Built by students, for students — Taskly Pro simplifies your academic workload
 | `/study-plan`     | GET/POST | AI-generated study plans          | `study_plan.html` |
 | `/teams`          | GET/POST | Manage or join teams              | `teams.html`      |
 | `/todo`           | GET/POST | Main to-do app                    | `todo.html`       |
-=======
-taskmanager/
-├── static/
-│   └── css/
-│       ├── five.css
-│       ├── schedule.css
-│       └── tailwind.config.js
-│
-├── templates/
-│   ├── base.html
-│   ├── base_auth.html
-│   ├── base_nav.html
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   ├── profile.html
-│   ├── tasks.html
-│   ├── task_item.html
-│   ├── completed.html
-│   ├── deleted.html
-│   ├── inprogress.html
-│   ├── schedule.html
-│   ├── study_plan.html
-│   ├── leaderboard.html
-│   ├── teams.html
-│   └── todo.html
-│
-├── index.py              # Main Flask entry point
-├── schedule.py           # Task scheduling logic
-├── study_plan.py         # AI planner logic
-├── utils.py              # Utility/helper functions
-├── streak.json           # Streak data
-├── .env                  # Cohere API key (not committed)
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
->>>>>>> 9600190 (local changes before pulling)
 
 ## How to Run the Project
 
@@ -89,7 +50,6 @@ Follow the steps below to run Taskly Pro locally.
 
 ### 1. Clone the Repository
 
-<<<<<<< HEAD
 ```bash
 git clone https://github.com/varshitha102/AI_Task_Manager_Taskly_Pro.git
 cd taskmanager/taskmanager
@@ -117,31 +77,10 @@ python -m venv venv
 ```bash
 pip install -r requirements.txt
 ```
-=======
-git clone https://github.com/yourusername/taskly-pro.git
-cd taskly-pro
-
-### 2. Create a Virtual Environment
-
-python -m venv venv
-
-### 3. Activate the Virtual Environment
-
-On Windows:
-venv\Scripts\activate
-
-On macOS/Linux:
-source venv/bin/activate
-
-### 4. Install Dependencies
-
-pip install -r requirements.txt
->>>>>>> 9600190 (local changes before pulling)
 
 ### 5. Set Up the API Key
 
 1. Go to https://cohere.com and sign up for a free API key.
-<<<<<<< HEAD
 2. Create a `.env` file in the project root.
 3. Add the following line:
 
@@ -156,40 +95,31 @@ pip install -r requirements.txt
 ```bash
 python index.py
 ```
-=======
-2. Create a .env file in the project root.
-3. Add the following line:
-
-COHERE_API_KEY=your_api_key_here
-
-Make sure this key is loaded in your code using os.environ.get() or the dotenv module.
-
-### 6. Run the Application
-
-python index.py
->>>>>>> 9600190 (local changes before pulling)
 
 Open your browser and go to: http://127.0.0.1:5000
 
 ## License
 
-<<<<<<< HEAD
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-=======
-This project is licensed under the MIT License. See the LICENSE file for details.
->>>>>>> 9600190 (local changes before pulling)
 
 ## Authors
 
 - Keerthi – Backend development, authentication, collaboration features
-<<<<<<< HEAD
 - Varshitha – Frontend design, AI planner integration, dashboard, streaks, rewards
 
 ## Screenshots
 
-- **Dashboard View**: ![Dashboard](assets/dashboard.png)
-- **Team Management**: ![Team Management](assets/team_management.png)
-- **Task List**: ![Task List](assets/task_list.png)
-=======
-- Varshitha – Frontend design, AI planner integration, dashboard, streaks, rewards
->>>>>>> 9600190 (local changes before pulling)
+- **Login View**: ![Dashboard](assets/login.png)
+- **Register View**: ![Dashboard](assets/register.png)
+- **Dashboard View**: ![Dashboard](assets/dashboard.png) 
+- **Home View**: ![Dashboard](assets/home.png)
+- **Study Plan**: ![Dashboard](assets/studyplan.png)
+- **Studyplan Task Generation**: ![Dashboard](assets/studyplan_generated_tasks.png)
+- **Schedule**: ![Dashboard](assets/schedule.png)
+- **Inprogress tasks View**: ![Dashboard](assets/inprogress_tasks.png)
+- **Completed tasks View**: ![Dashboard](assets/completed_tasks.png)
+- **Deleted tasks View**: ![Dashboard](assets/deleted_tasks.png)
+- **Todo View**: ![Dashboard](assets/todo.png)
+- **Teams**: ![Team Management](assets/teams.png)
+- **Members**: ![Dashboard](assets/member_team.png)
+- 
