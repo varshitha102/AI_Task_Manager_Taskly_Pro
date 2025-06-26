@@ -114,7 +114,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 - **Dashboard View**: ![Dashboard](assets/dashboard.png) 
 - **Home View**: ![Dashboard](assets/home.png)
 - **Study Plan**: ![Dashboard](assets/studyplan.png)
-- **Studyplan Task Generation**: ![Dashboard](assets/studyplan_generated_tasks.png)
+- **Studyplan Task Generation**: ![Dashboard](assets/studyplan_generated tasks.png)
 - **Schedule**: ![Dashboard](assets/schedule.png)
 - **Inprogress tasks View**: ![Dashboard](assets/inprogress_tasks.png)
 - **Completed tasks View**: ![Dashboard](assets/completed_tasks.png)
